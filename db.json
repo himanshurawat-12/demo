@@ -1,31 +1,52 @@
 {
-  "posts": [
+  "monitoring": [
     {
-      "id": 1,
-      "title": "Post 1"
+      "manuscriptNumber":"M12345",
+      "vendor":"Vendor A",
+      "vendorLink":"vendor-details/A",
+      "journalId":"J001",
+      "notes":"Initial submission",
+      "receivedDate":"2025-03-01",
+      "dueDate":"2025-04-15",
+      "exceptionFlag":false,
+      "status":"In Progress"
     },
     {
-      "id": 2,
-      "title": "Post 2"
-    },
-    {
-      "id": 3,
-      "title": "Post 3"
+      "manuscriptNumber":"M54321",
+      "vendor":"Vendor B",
+      "vendorLink":"vendor-details/B",
+      "journalId":"J002",
+      "notes":"Revised submission",
+      "receivedDate":"2025-03-10",
+      "dueDate":"2025-04-20",
+      "exceptionFlag":true,
+      "status":"Published"
+   },
+   {
+    "manuscriptNumber":"M10123",
+    "vendor":"Vendor C",
+    "vendorLink":"vendor-details/C",
+    "journalId":"J003",
+    "notes":"Urgent review required",
+    "receivedDate":"2025-03-15",
+    "dueDate":"2025-04-01",
+    "exceptionFlag":false,
+    "status":"In Progress"
     }
   ],
-  "comments": [
+  "jobs": [
     {
       "id": 1,
       "body": "some comment",
-      "postId": 1
+      "jobId": 1
     },
     {
       "id": 2,
       "body": "some comment",
-      "postId": 1
+      "jobId": 2
     }
   ],
   "profile": {
-    "name": "typicode"
+    "name": "Himanshu Rawat"
   }
 }
