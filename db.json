@@ -4,19 +4,17 @@
       "id": 1,
       "manuscriptNumber":"M12345",
       "vendor":"Vendor A",
-      "vendorLink":"vendor-details/A",
       "journalId":"J001",
       "notes":"Initial submission",
       "receivedDate":"2025-03-01",
       "dueDate":"2025-04-15",
       "exceptionFlag":false,
       "status":"In Progress"
-    },
-    {
+   },
+   {
       "id": 2,
       "manuscriptNumber":"M54321",
       "vendor":"Vendor B",
-      "vendorLink":"vendor-details/B",
       "journalId":"J002",
       "notes":"Revised submission",
       "receivedDate":"2025-03-10",
@@ -25,23 +23,60 @@
       "status":"Published"
    },
    {
-     "id": 3,
-    "manuscriptNumber":"M10123",
-    "vendor":"Vendor C",
-    "vendorLink":"vendor-details/C",
-    "journalId":"J003",
-    "notes":"Urgent review required",
-    "receivedDate":"2025-03-15",
-    "dueDate":"2025-04-01",
-    "exceptionFlag":false,
-    "status":"In Progress"
-    }
+      "id": 3,
+      "manuscriptNumber":"M10123",
+      "vendor":"Vendor C",
+      "journalId":"J003",
+      "notes":"Urgent review required",
+      "receivedDate":"2025-03-15",
+      "dueDate":"2025-04-01",
+      "exceptionFlag":false,
+      "status":"In Progress"
+   },
+   {
+      "id": 4,
+      "manuscriptNumber":"M10234",
+      "vendor":"Vendor D",
+      "journalId":"J004",
+      "notes":"Delayed submission",
+      "receivedDate":"2025-03-20",
+      "dueDate":"2025-03-25",
+      "exceptionFlag":true,
+      "status":"In Progress"
+   },
+   {
+      "id": 5,
+      "manuscriptNumber":"M10345",
+      "vendor":"Vendor E",
+      "journalId":"J005",
+      "notes":"Final review",
+      "receivedDate":"2025-03-25",
+      "dueDate":"2025-03-30",
+      "exceptionFlag":false,
+      "status":"Published"
+   },
+   {
+      "id": 6,
+      "manuscriptNumber":"M54321",
+      "vendor":"Vendor B",
+      "journalId":"J002",
+      "notes":"Revised submission",
+      "receivedDate":"2025-03-10",
+      "dueDate":"2025-04-20",
+      "exceptionFlag":false,
+      "status":"Published"
+   }
   ],
   "jobs": [
     {
       "id": 1,
-      "body": "some comment",
+      "body": "some jobs content",
       "jobId": 1
+    },
+    {
+      "id": 2,
+      "body": "some jobs content",
+      "jobId": 2
     }
   ],
   "profile": {
