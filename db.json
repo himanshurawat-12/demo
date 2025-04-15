@@ -42,11 +42,6 @@
       "id": 1,
       "body": "some comment",
       "jobId": 1
-    },
-    {
-      "id": 2,
-      "body": "some comment",
-      "jobId": 2
     }
   ],
   "profile": {
