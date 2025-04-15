@@ -1,6 +1,7 @@
 {
   "monitoring": [
     {
+      "id": 1,
       "manuscriptNumber":"M12345",
       "vendor":"Vendor A",
       "vendorLink":"vendor-details/A",
@@ -12,6 +13,7 @@
       "status":"In Progress"
     },
     {
+      "id": 2,
       "manuscriptNumber":"M54321",
       "vendor":"Vendor B",
       "vendorLink":"vendor-details/B",
@@ -23,6 +25,7 @@
       "status":"Published"
    },
    {
+     "id": 3,
     "manuscriptNumber":"M10123",
     "vendor":"Vendor C",
     "vendorLink":"vendor-details/C",
