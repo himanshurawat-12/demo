@@ -97,5 +97,8 @@
    ],
    "profile":{
       "name":"Himanshu Rawat"
+   },
+    "role":{
+      "name":"User"
    }
 }
